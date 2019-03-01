@@ -3,22 +3,9 @@
 
 
 
-<<<<<<< HEAD
 <a name="v1.57.0"></a>
 ## [v1.57.0] - 2019-02-21
 
-=======
-<a name="v1.58.0"></a>
-## [v1.58.0] - 2019-03-01
-
-- API gateway Endpoint ([#225](https://github.com/terraform-aws-modules/terraform-aws-vpc/issues/225))
-
-
-<a name="v1.57.0"></a>
-## [v1.57.0] - 2019-02-21
-
-- Bump version
->>>>>>> 417c3018b4419c98e0d1c21048a7077199245c93
 - Added CHANGELOG.md ([#221](https://github.com/terraform-aws-modules/terraform-aws-vpc/issues/221))
 
 
@@ -391,7 +378,6 @@
 - Reverted bad merge, fixed [#33](https://github.com/terraform-aws-modules/terraform-aws-vpc/issues/33)
 
 
-<<<<<<< HEAD
 <a name="v1.5.0"></a>
 ## [v1.5.0] - 2017-11-23
 
@@ -399,15 +385,6 @@
 
 <a name="v1.5.1"></a>
 ## [v1.5.1] - 2017-11-23
-=======
-<a name="v1.5.1"></a>
-## [v1.5.1] - 2017-11-23
-
-
-
-<a name="v1.5.0"></a>
-## [v1.5.0] - 2017-11-23
->>>>>>> 417c3018b4419c98e0d1c21048a7077199245c93
 
 - Reverted bad merge, fixed [#33](https://github.com/terraform-aws-modules/terraform-aws-vpc/issues/33)
 - Set enable_dns_support=true by default
@@ -485,12 +462,7 @@
 - Initial commit
 
 
-<<<<<<< HEAD
 [Unreleased]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.57.0...HEAD
-=======
-[Unreleased]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.58.0...HEAD
-[v1.58.0]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.57.0...v1.58.0
->>>>>>> 417c3018b4419c98e0d1c21048a7077199245c93
 [v1.57.0]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.56.0...v1.57.0
 [v1.56.0]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.55.0...v1.56.0
 [v1.55.0]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.54.0...v1.55.0
@@ -547,15 +519,9 @@
 [v1.8.0]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.7.0...v1.8.0
 [v1.7.0]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.6.0...v1.7.0
 [v1.6.0]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.4.1...v1.6.0
-<<<<<<< HEAD
 [v1.4.1]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.5.0...v1.4.1
 [v1.5.0]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.5.1...v1.5.0
 [v1.5.1]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.4.0...v1.5.1
-=======
-[v1.4.1]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.5.1...v1.4.1
-[v1.5.1]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.5.0...v1.5.1
-[v1.5.0]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.4.0...v1.5.0
->>>>>>> 417c3018b4419c98e0d1c21048a7077199245c93
 [v1.4.0]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.3.0...v1.4.0
 [v1.3.0]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.2.0...v1.3.0
 [v1.2.0]: https://github.com/terraform-aws-modules/terraform-aws-vpc/compare/v1.1.0...v1.2.0

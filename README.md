@@ -15,11 +15,7 @@ These types of resources are supported:
 * [VPN Gateway](https://www.terraform.io/docs/providers/aws/r/vpn_gateway.html)
 * [VPC Endpoint](https://www.terraform.io/docs/providers/aws/r/vpc_endpoint.html):
   * Gateway: S3, DynamoDB
-<<<<<<< HEAD
-  * Interface: EC2, SSM, EC2 Messages, SSM Messages, ECR API, ECR DKR
-=======
   * Interface: EC2, SSM, EC2 Messages, SSM Messages, ECR API, ECR DKR, API Gateway
->>>>>>> 417c3018b4419c98e0d1c21048a7077199245c93
 * [RDS DB Subnet Group](https://www.terraform.io/docs/providers/aws/r/db_subnet_group.html)
 * [ElastiCache Subnet Group](https://www.terraform.io/docs/providers/aws/r/elasticache_subnet_group.html)
 * [Redshift Subnet Group](https://www.terraform.io/docs/providers/aws/r/redshift_subnet_group.html)
@@ -186,12 +182,6 @@ Terraform version 0.10.3 or newer is required for this module to work.
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
 | amazon\_side\_asn | The Autonomous System Number (ASN) for the Amazon side of the gateway. By default the virtual private gateway is created with the current default Amazon ASN. | string | `"64512"` | no |
-<<<<<<< HEAD
-=======
-| apigw\_endpoint\_private\_dns\_enabled | Whether or not to associate a private hosted zone with the specified VPC for API GW endpoint | string | `"false"` | no |
-| apigw\_endpoint\_security\_group\_ids | The ID of one or more security groups to associate with the network interface for API GW  endpoint | list | `[]` | no |
-| apigw\_endpoint\_subnet\_ids | The ID of one or more subnets in which to create a network interface for API GW endpoint. Only a single subnet within an AZ is supported. If omitted, private subnets will be used. | list | `[]` | no |
->>>>>>> 417c3018b4419c98e0d1c21048a7077199245c93
 | assign\_generated\_ipv6\_cidr\_block | Requests an Amazon-provided IPv6 CIDR block with a /56 prefix length for the VPC. You cannot specify the range of IP addresses, or the size of the CIDR block | string | `"false"` | no |
 | azs | A list of availability zones in the region | list | `[]` | no |
 | cidr | The CIDR block for the VPC. Default value is a valid CIDR, but not acceptable by AWS and should be overridden | string | `"0.0.0.0/0"` | no |
@@ -236,10 +226,6 @@ Terraform version 0.10.3 or newer is required for this module to work.
 | elasticache\_subnet\_suffix | Suffix to append to elasticache subnets name | string | `"elasticache"` | no |
 | elasticache\_subnet\_tags | Additional tags for the elasticache subnets | map | `{}` | no |
 | elasticache\_subnets | A list of elasticache subnets | list | `[]` | no |
-<<<<<<< HEAD
-=======
-| enable\_apigw\_endpoint | Should be true if you want to provision an api gateway endpoint to the VPC | string | `"false"` | no |
->>>>>>> 417c3018b4419c98e0d1c21048a7077199245c93
 | enable\_dhcp\_options | Should be true if you want to specify a DHCP options set with a custom domain name, DNS servers, NTP servers, netbios servers, and/or netbios server type | string | `"false"` | no |
 | enable\_dns\_hostnames | Should be true to enable DNS hostnames in the VPC | string | `"false"` | no |
 | enable\_dns\_support | Should be true to enable DNS support in the VPC | string | `"true"` | no |
@@ -257,10 +243,7 @@ Terraform version 0.10.3 or newer is required for this module to work.
 | igw\_tags | Additional tags for the internet gateway | map | `{}` | no |
 | instance\_tenancy | A tenancy option for instances launched into the VPC | string | `"default"` | no |
 | intra\_route\_table\_tags | Additional tags for the intra route tables | map | `{}` | no |
-<<<<<<< HEAD
-=======
 | intra\_subnet\_suffix | Suffix to append to intra subnets name | string | `"intra"` | no |
->>>>>>> 417c3018b4419c98e0d1c21048a7077199245c93
 | intra\_subnet\_tags | Additional tags for the intra subnets | map | `{}` | no |
 | intra\_subnets | A list of intra subnets | list | `[]` | no |
 | manage\_default\_vpc | Should be true to adopt and manage Default VPC | string | `"false"` | no |
